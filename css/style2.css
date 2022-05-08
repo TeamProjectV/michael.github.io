@@ -1,0 +1,42 @@
+.wrap{
+    width: 800px;
+    height: 900px;
+    margin: 30px auto;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+table{
+    font-size: 30px
+}
+td{
+    padding:  10px 20px 0px 0px;
+    color: white;
+
+}
+.txt{
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+}
+.txtarea{
+    width: 830px;
+    height: 100px;
+    border-radius: 8px;
+}
+.btn{
+    width: 830px;
+    height: 50px;
+    background-color: darkblue;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+}
+body{
+    background-image: url(../images/feedback.jpg);
+    background-size: cover;
+}
