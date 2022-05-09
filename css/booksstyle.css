@@ -546,3 +546,140 @@ p{
         margin-bottom: 30px;
        
     }
+.navbar{
+        display: flex;
+        align-items: right;
+        margin-bottom: -12px;
+    }
+    
+.navbar .logo img{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: -40px;
+    margin-top: -26px;
+    width: 60%;
+    }
+    
+.search-container {
+        margin-bottom: 10px;
+       margin-top: 4px;
+      margin-left: -35px;
+    }
+      
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        border: 1px solid #a7a7a7;
+        border-radius: 5px 0px 0px 5px;
+        width:260px;
+        height: 40px ;
+    }
+      
+    .search-container button {
+        float: right;
+        width: 40px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #a7a7a7;
+        font-size: 17px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    
+    .search-container button:hover {
+     background: #ccc;
+    }
+    
+    
+    .navbar a:hover{
+    color: #1aaa1a;
+    }
+    
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+        margin-top: 23px;
+        margin-right: -50px;
+    }
+    
+    nav ul li {
+       display: inline-block;
+       margin-right: 20px;
+    }
+    
+    a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;       
+    }
+      
+    .categories a:hover{
+    color: #1aaa1a;
+    }
+    
+       
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .header{
+       background: #e5e5e5;
+    }
+    
+    .categories{
+        height: 50px;
+        background:black;
+        display: flex;
+        align-items: center;
+        font-family: 'Lato', sans-serif;
+        position: relative ;
+        width: 100%;
+    }
+    
+    .categories ul{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        grid-gap: 5px;
+        font-family: 'Lato', sans-serif;
+        position: relative ;
+        width: 100%; 
+        padding-left: 6%;
+    }
+    
+    .categories ul li {
+    display: inline-block;
+    align-items: center;
+    margin-left: 20px;
+    padding-bottom: 18px;
+    margin-top: 13px;
+    margin-right: 20px;
+    }
+    
+    .categories ul li a{
+     color: #f9f9f9;
+     align-items: center;
+    
+    }
+ .vid{
+        padding-left: 330px;
+        padding-right: 25px;
+    
+    }
+    .vid p{
+        padding-left: 50px;
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
