@@ -39,13 +39,24 @@ nav ul li {
         
     }
 
-a{
+    a{
         text-decoration: none;
-        color: #555;
-        font-size: medium;
-        
-        
-    }
+        color: black;
+        font-size: 16px;       
+        }
+        .categories{
+            height: 60px;
+            background:black;
+            display: flex;
+            align-items: center;
+            font-family: 'Lato', sans-serif;
+            position: relative ;
+            width: 100%;
+        }
+        .categories ul li a{
+            color: #f9f9f9;
+            align-items: center;
+        }        
   
 .categories a:hover{
     color: #1aaa1a;
@@ -97,8 +108,8 @@ p{
 .categories ul li{
         display: inline-block;
         align-items: center;
-        margin-left: 40px;
-        padding-bottom: 20px;
+        margin-left: 35px;
+        padding-bottom: 15px;
         
     }
 #slider{
