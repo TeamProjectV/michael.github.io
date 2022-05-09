@@ -134,7 +134,6 @@ color: #1aaa1a;
 	font-family: 'Lato', sans-serif;
 	position: relative ;
 	width: 100%; 
-    padding-left: 2.5%;
 
 }
 
@@ -170,35 +169,48 @@ margin-right: 20px;
 
 .home .content h1{
     font-size: 75px;
-    color:#F18EBE;
-    
+    color:white;
+   font-weight: 3px;
+
+}
+
+.home .content h1:hover{
+    color:#F08080;
 }
 
 .home .content span{
     font-size: 30px;
-    color:white;
+    color:#F08080;
     line-height: 1.5;
+  
+}
+
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    padding:1rem 3rem;
+    color:#fff;
+    font-size:1.7rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+.btn:hover{
+    letter-spacing: .1rem;
+    background: #F08080;
+    color: #fff;
 }
 
 
 
 
-.icons-container h1{
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 15px;
-    color: black;
-    margin-top: 30px;
-}
-.icons-container h1:hover{
-    color: var(--pink);
-}
 .icons-container{
     background:white;
     display: flex;
     gap: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
+    flex-wrap: wrap;
+   
    
 }
 
@@ -216,8 +228,13 @@ margin-right: 20px;
     border: 0.5px solid var(--pink);
     
 }
+
+.icons-container :hover{
+background: #f7bfbf;
+}
+
 .icons-container .icons :hover{
-color:var(--pink)
+color:white;
 }
 .icons-container .icons img{
     height:60px;
@@ -234,7 +251,6 @@ color:var(--pink)
 
 
 
-
 .products h1{
     font-size: 40px;
     text-align: center;
@@ -243,7 +259,7 @@ color:var(--pink)
     margin-top: -10px;
     outline-color: var(--pink);
     outline-style:outset ;
-    /* #f8e0e0 */
+   
 }
 .products h1:hover{
     color: var(--pink);
@@ -343,6 +359,33 @@ color:var(--pink)
 }
 
 
+.banner{
+    background: url(../images/bannermakeup-bg.jpg) no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.banner .content{
+    max-width: 40rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+    margin: 10rem 0;
+}
+.banner .content span{
+    font-size:2rem;
+}
+.banner .content h3{
+    font-size:3rem;
+    color: #222;
+    padding-top: .5rem;
+}
+.banner .content p{
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;
+    line-height: 2;
+}
 
 
 
@@ -350,7 +393,68 @@ color:var(--pink)
 
 
 
+.gallery .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap:2rem;
+}
+.gallery .box-container .box{
+    height:25rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+.gallery .box-container .box:hover .content{
+    display: flex;
+}
+.gallery .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.gallery .box-container .box .content{
+    background: rgba(255,255,255,0.8);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    padding:2rem;
+    text-align:center;
+    border:0.2rem solid #222;
+    display: none;
+}
+.gallery .box-container .box .content h3{
+    font-size: 2rem;
+    color: #222;
+   
+}
+.gallery .box-container .box .content p{
+    font-size: 1.4rem;
+    color: #222;
+    padding:1rem 0;
+    line-height: 2;
+    
+}
 
+
+.gallery h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: black;
+    margin-top: 15px;
+    outline-color: var(--pink);
+    outline-style:outset ;
+}
+
+.gallery h1:hover{
+    color: var(--pink);
+}
 
 .about .row{
     display: flex;
@@ -368,7 +472,7 @@ color:var(--pink)
     width:100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: 0 5px 15px #d8d8d8;
+    box-shadow: 0 5px 15px rosybrown;
     border-radius: 10px;
     border: 20px solid #fdf9f9;
 }
@@ -379,9 +483,12 @@ color:var(--pink)
 
 .about .row .content h3{
     font-size: 40px;
-    color: var(--pink);
+    color: black;
 }
 
+.about .row .content h3:hover{
+    color: var(--pink);
+}
 
 .about .row .content p{
     font-size: 15px;
@@ -394,10 +501,12 @@ color:var(--pink)
 
 
 
+
+
 #footer{
     width: 100%;
     height: auto;
-    background-color: #c5bebf ; 
+    background-color: #c5bebf; 
     float: left;
    
 }
@@ -411,7 +520,6 @@ color:var(--pink)
 .footer_sub_1 p{
     color: black;
     padding-right: 25px;
-    font-size: 14px;
 }
 .footer_sub_1 a{
     color: white;
@@ -458,13 +566,8 @@ color:var(--pink)
     width: 90px;
     border: none;
     background: black;
-    float: right;
+    float: left;
     color: white;
-    margin-left: 100px;
-    margin-top: -50px;
-    
-    
-
     
     
 }
@@ -473,7 +576,6 @@ color:var(--pink)
     color: grey;
     font-style: italic;
     float: left;
-    
 }
 
 #footer hr{
