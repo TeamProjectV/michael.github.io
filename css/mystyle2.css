@@ -210,11 +210,28 @@ ul{justify-content: space-between;}
 .Links2 {
     background-image: url('../images/abstract-graphic-design-vector-triangle-wallpaper-thumb.jpg');
 }
-#playaudio{
-    align-content:center;
-    
 
+/*new*/
+
+.dark-mode {
+    background-color: bisque;
+    color: #507386;
 }
+.theme2
+{
+    float:right;
+    margin-right:25px;
+    margin-top:-103px;
+    font-size:22px;
+}
+.photos2{
+    background-color:white;
+}
+
+/*end of news*/
+
+
+
 
 #footer{
     width: 100%;
