@@ -172,6 +172,8 @@ h5{margin-top:8px;}
 display:flex;
 list-style-type:none;
 justify-content:center ;
+    margin-top:50px;
+    
 
 }
 
@@ -201,7 +203,7 @@ text-decoration:none;
 }
 .hello{margin-left:30px;}
 .hel{margin-left:10px;}
-.qu{text-align:center ; font-family:Arial ; font-size:20px; color:purple;}
+.qu{text-align:center ; font-family:Arial ; font-size:20px; color:purple; margon-top:45px;}
 
 
 
@@ -221,7 +223,7 @@ ul{justify-content: space-between;}
 {
     float:right;
     margin-right:25px;
-    margin-top:-130px;
+    margin-top:-120px;
     font-size:22px;
 }
 .photos2{
