@@ -1,5 +1,6 @@
 body {
     background-color: #F0F5D1;
+    margin:0;
     
 }
 .navbar {
@@ -66,7 +67,7 @@ nav {
     nav ul {
         display: inline-block;
         list-style-type: none;
-        margin-top: 23px;
+        margin-top: -40px;
         margin-right: -40px;
     }
 
@@ -476,3 +477,27 @@ a {
     text-align: center;
     margin-bottom: 30px;
 }
+/*new*/
+#headercart{
+    color:black;
+    font-size:15px;
+}
+
+
+.dark-mode {
+    background-color: #795548;
+    color: white;
+  
+}
+.theme2 {
+    float: right;
+    margin-right: 40px;
+    margin-top: -120px;
+    font-size: 22px;
+}
+#headercart{
+    color:black;
+    font-size:15px;
+}
+
+/*endofnews*/
