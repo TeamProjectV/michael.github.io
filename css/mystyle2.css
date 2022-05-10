@@ -146,7 +146,7 @@ margin-right:50px;
 
 }
 
-.e {margin-top:50px; font-family:Arial;font-size:21px;color:#507386;}
+.e {margin-top:50px; font-family:Arial;font-size:21px;}
 table th :hover {background-color:#507386;}
 .g2{width:240px; height:210px}
 table th :nth-child(even) :hover {background-color:#507386;}  
