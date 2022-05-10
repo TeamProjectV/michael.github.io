@@ -1,3 +1,15 @@
+
+/* the header starts */
+
+body{
+    background-color: white;
+   
+    
+}
+.theme{
+    background-color: #fdf2e0 ;
+ }
+
 .navbar{
     display: flex;
     align-items: right;
@@ -108,7 +120,6 @@ color: #1aaa1a;
 	font-family: 'Lato', sans-serif;
 	position: relative ;
 	width: 100%; 
-    padding-left: 2.5%;
 
 }
 
@@ -127,6 +138,9 @@ margin-right: 20px;
 
 }
 
+
+/* the header ends */
+
 .cards-list{
     width: 100%;
     display: flex;
@@ -136,28 +150,27 @@ margin-right: 20px;
 }
 .card{
     margin: 30px auto;
-    padding: 55px;
+    padding: 35px;
     width: 300px;
     height: 350px;
-    /*border-radius: 60px;*/
+    border-radius: 8px;
     cursor: pointer;
-    box-shadow: 5px 5px 30px 17px rgba(253, 6, 220, 0.25),-5px -5px 30px 17px rgba(7, 159, 241, 0.22);
+    box-shadow: 5px 5px 10px 10px rgba(253, 6, 220, 0.25),-5px -5px 10px 10px rgba(7, 159, 241, 0.22);
     transition: 0.5s;
     
 }
 .card-image{
     width: inherit;
-    height: inherit;
+    height: inherit;}
 
-}
+
 .card-image img{
-   /* width: inherit;
-    height: inherit;*/
+   
    border-radius: 60px;
     object-fit: cover;
 }
 .div{
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 25% 25% 25% 25%;
     display: grid;
 }
 .card_title{
@@ -172,49 +185,11 @@ margin-right: 20px;
 .video{
     position: absolute;
 }
-/*.video::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}*/
+
 .video video{width: 100%;
 
 }
-.video.text{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: rotateY(-50%);
-    padding: 50px;
-    background-color: blue;
-   /* background-color: var(--transparent-color);*/
-    color: red;
-    text-align: center;
 
-
-}
-.video.text.h2{
-    margin: 0 0 30px ;
-    text-transform:uppecase;
-    font-weight: normal;
-}
-.video.text.p{
-    margin-bottom: 30px;
-
-    
-}
-.video.text.button{
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    text-transform: uppercase;
-    
-}
 .h{
     margin-top: 230px;
 }
@@ -222,98 +197,70 @@ margin-right: 20px;
     text-decoration: none;
     color: black;
     
+    
 }
 .checked {
     color: orange;
   }
-  #footer{
-    width: 100%;
-    height: auto;
-    background-color: #c5bebf; 
-    float: left;
-    
-   
-}
-.footer_sub_1{
-    width: 25%;
-    float: left;
-    color: #fff;
-    margin-right: 40px;
- 
-}
-.footer_sub_1 p{
-    color: black;
-    padding-right: 25px;
-}
-.footer_sub_1 a{
-    color: white;
-}
-.footer_sub_1 a:hover{
-    color: #1aaa1a;
-}
-.footer_sub_2{
-   width: 20%;
-   float: left;
-   color: #fff;
-   padding-left: 200px;
-}
-.footer_sub_2 ul li{
-    list-style: none;
-    margin-bottom: 20px;
-}
-.footer_sub_2 a{
-    text-decoration: none;
-    color: black;
-    ;
-}
-.footer_sub_2 a:hover{
-    color: #1aaa1a;
-    text-decoration: underline;
-    
-}
-.footer_sub_3{
-    width: 25%;
-    float: left;
-    color: white;
-    padding-left: 120px;
-}
-.subs{
-    width: 250px;
-    border: none;
-    height: 50px;
-    float: left;
-    padding-left: 15px;
+/*.container2{
+    position: relative;
 
 }
-.submit_btn{
-    height: 50px;
-    width: 90px;
-    border: none;
-    background: black;
-    float: right;
-    color: white;
-    margin-left: 99999900px;
-    margin-top: -50px;
 
-}
- 
-.sub_p{
-    color: grey;
-    font-style: italic;
-    float: left;
-    margin-top: 10px;
+
+table{
+    width: 500px;
+    margin-top: 300px;
+    margin-bottom: -200px;
 }
 
-#footer hr{
-    background-color: #b5b5b5;
-    margin: 230px 70px 20px 70px;
-    height: 1px;
-    border-radius: 2cm;
-}
-    
-   
-.copyright{
+th{
     text-align: center;
-    margin-bottom: 30px;
-   
+    color: #ce0b94;
+    background-color: rgb(17, 18, 19);
+    font-style: italic;
+    font-size: large;
+    border-collapse:separate;
 }
+tr{
+    text-align: center;
+}
+table,th,td{
+    border:1px hidden #f41cb3;
+    padding-left: 225px;
+    padding-bottom: 10px;
+}
+td{
+    color: rgb(239, 92, 192);
+    background-color:rgb(255, 255, 255);
+    font-style: oblique;
+   
+}*/
+
+th, td {
+    border-style:solid;
+    border-color: #e592bc;
+  }
+
+  th{
+      font-size: 30px;
+  }
+
+  td{
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .mytable{
+      margin-top: 290px;
+      margin-bottom: 800px;
+      margin-left: 250px;
+    height: 40px;
+  }
+
+
+
+
+  tr{
+      height: 100px;
+  }
