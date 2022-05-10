@@ -327,16 +327,18 @@ th, td {
     width: 90px;
     border: none;
     background: black;
-    float: left;
+    float: right;
     color: white;
-    
-    
+    margin-left: 99999900px;
+    margin-top: -50px;
+
 }
  
 .sub_p{
     color: grey;
     font-style: italic;
     float: left;
+   
 }
 
 #footer hr{
