@@ -315,6 +315,12 @@ tr:hover {
     -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
 }
 
+th img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 5px solid #e6e7e8;
+}
 
 #footer{
         width: 100%;
