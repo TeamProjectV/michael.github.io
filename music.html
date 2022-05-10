@@ -3,67 +3,79 @@
 <head>
     <meta charset="UTF-8">
     
-    <title>Complete Responsive Musical Insturments Website </title>
+    <title> Musical Insturments Website </title>
+    <script src="https://kit.fontawesome.com/fd064ff53a.js" crossorigin="anonymous"></script>
 
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   
-    <link href="css/music.css" type="text/css" rel="stylesheet"/>
-       <script src="https://kit.fontawesome.com/fd064ff53a.js" crossorigin="anonymous"></script>
-    <link  href="fonts/css/all.css" rel="stylesheet" type="text/css"/>
-    <script src="js/script.js"> </script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/music.js"> </script>
 
 </head>
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="images/cybershop.png" width="125px">
+
+ <!-- header starts -->
+
+       
+        <body style="background-image:url('../images/shopp1.jpg') ; background-repeat: no-repeat;  height: max-content;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;">
+            <div class="header">
+                <div class="container">
+                    <div class="navbar">
+                        <div class="logo">
+                            <img src=" ../images/cybershop.png" width="125px">
+                        </div>
+                        <div class="search-container">
+                            <form action="shopping-cart.html">
+                              <input type="text" placeholder="Search.." name="search">
+                              <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                          </div>
+                        <nav>
+                            <ul>
+                                 <li><a href="index.html"><b>Home</b></a></li>
+                                 <li><a href="login.html"><b>Login</b> <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+                                 <li><a href=""><b>Cart</b>  <i class="fa-solid fa-cart-shopping"></i></a></li>
+                                 <li><a href=""><b>User Profile</b> <i class="fa-solid fa-user"></i> </a></li>
+                                 <li><a href="feedback.html"><b>feedback</b></a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="search-container">
-                    <form action="shopping-cart.html">
-                      <input type="text" placeholder="Search.." name="search">
-                      <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                  </div>
-                <nav>
-                    <ul>
-                         <li><a href="index.html"><b>Home</b></a></li>
-                         <li><a href="login.html"><b>Login</b> <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
-                         <li><a href="cart2.html"><b>Cart</b>  <i class="fa-solid fa-cart-shopping"></i></a></li>
-                         <li><a href="profile.html"><b>User Profile</b> <i class="fa-solid fa-user"></i> </a></li>
-                         <li><a href="feedback.html"><b>feedback</b></a></li>
-                        
-                    </ul>
-                </nav>
+            </div>
+<div class="categories" >                  
+     <ul>
+       <li><a href="">Cosmetics</a></li>
+       <li><a href="">Selling Sashboard</a></li>
+        <li><a href="">Food</a></li>
+        <li><a href="">Furniture</a></li>
+        <li><a href="">Gaming</a></li>
+        <li><a href="">Toys</a></li>                    
+        <li><a href="">Books&Readings</a></li>
+        <li><a href="">Musical Instruments</a></li>
+        <li><a href="">Laptops&Computers</a></li>
+        <li><a href="">Appliances</a></li>
+     </ul>
+</div>   
+            </div>
+              
             </div>
         </div>
-    </div>
-<div class="categories" >                  
-<ul>
-<li><a href="makeup.html">Cosmetics</a></li>
-<li><a href="dashboard.html">Selling dashboard</a></li>
-<li><a href="project.html">Food</a></li>
-<li><a href="furniture.html">Furniture</a></li>
-<li><a href="video games.html">Gaming</a></li>                 
-<li><a href="books.html">Books&Readings</a></li>
-<li><a href="music.html">Musical Instruments</a></li>
-<li><a href="computers and laptops.html">Laptops&Computers</a></li>
-<li><a href="appliances.html">Appliances</a></li>
-</ul>
-</div>   
-    </div>
-      
-    </div>
-</div>
 
- 
-    <h2 style="text-align:center;color:white;background-color:rgb(133, 18, 93);">Musical Insturments</h2>
+<!-- header ends -->
+<!-- <i onclick="myFunction()">Theme</i> -->
+
+<div ><i class="fa-solid fa-cloud-moon"  onclick="myFunction()" style="font-size:40px"></i></div>
+
+    <h2 style="text-align:center;color:white;background-color:rgb(133, 18, 93);">Musical Insturments <i class="fa-solid fa-headphones"></i> </h2>
    
-    <div class="video">
+        <div class="video">
         <video  autoplay muted loop>
-            <source src="media/guitar video.mp4 " type="video/mp4" >
+            <source src="media/musicvideo.mp4 " type="video/mp4" >
         </video>
         <div class="text">
             
@@ -74,13 +86,13 @@
 <div class="cards-list">
     <div class="card">
         <div class="card-image">
-            <img src="images/black.jpg" width="142.5px" hieght="375px">
+            <img src="musical insturments images/black.jpg" width="142.5px" hieght="375px">
         </div>
         <div class="card_title">
             <p>Loog Pro Acoustic VI Guitar, Beginners, App & Lessons Included, Travel Guitar, Ages 12+ (black)</p>
             <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
             <p style="color:#ff66b3;font-size:medium">price:$1500</p>
@@ -92,14 +104,14 @@
     <div class="cards-list">
         <div class="card">
             <div class="card-image">
-                <img src="images/green.jpg" width="142.5px" hieght="375px">
+                <img src="musical insturments images/green.jpg" width="142.5px" hieght="375px">
             </div>
             <div class="card_title">
                 <p>Loog Pro Acoustic VI Guitar, Beginners, App & Lessons Included, Travel Guitar, Ages 12+ (green)</p>
                 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
+<span class="fa fa-star  checked"></span>
 <span class="fa fa-star"></span>
                 <p style="color:#ff66b3;font-size:medium">price:$1200</p>
                 <input type="button" value="add to cart">
@@ -117,8 +129,8 @@
                     <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
                     <p style="color:#ff66b3;font-size:medium">price:$1599</p>
                     <input type="button" value="add to cart">
         
@@ -128,7 +140,7 @@
             <div class="cards-list">
                 <div class="card">
                     <div class="card-image">
-                        <img src="images/pinky.jpg" width="142.5px" hieght="375px">
+                        <img src="musical insturments images/pinky.jpg" width="142.5px" hieght="375px">
                     </div>
                     <div class="card_title">
                         <p>Full Size Classical Guitar pink</p>
@@ -156,7 +168,7 @@
 <div class="cards-list">
     <div class="card">
         <div class="card-image">
-            <img src="images/newviolin3.jpg" width="142.5px" hieght="375px">
+            <img src="musical insturments images/newviolin3.jpg" width="142.5px" hieght="375px">
         </div>
         <div class="card_title">
             <p>E and A Violin , Size 4*4 , Black</p>
@@ -174,7 +186,7 @@
     <div class="cards-list">
         <div class="card">
             <div class="card-image">
-                <img src="images/newviolin1.jpg" width="142.5px" hieght="375px">
+                <img src="musical insturments images/newviolin1.jpg" width="142.5px" hieght="375px">
             </div>
             <div class="card_title">
                 <p>Full Size 4/4 Natural Acoustic Violin Fiddle with Case Bow New-FE2135</p>
@@ -194,7 +206,7 @@
         <div class="cards-list">
             <div class="card">
                 <div class="card-image">
-                    <img src="images/newviolin2.jpg" width="149px" hieght="500.75px">
+                    <img src="musical insturments images/newviolin2.jpg" width="149px" hieght="500.75px">
                 </div>
                 <div class="card_title">
                     <p>full Size 4/4 Natural Acoustic Violin Fiddleull Size 4/4 Natural Acoustic Violin Fiddle </p>
@@ -212,7 +224,7 @@
             <div class="cards-list">
                 <div class="card">
                     <div class="card-image">
-                        <img src="images/newviolin4.jpg" width="142.5px" hieght="375px">
+                        <img src="musical insturments images/newviolin4.jpg" width="142.5px" hieght="375px">
                     </div>
                     <div class="card_title">
                         <p>4/4 MV-Blue Solid Wood Violin with Hard Case</p>
@@ -220,7 +232,7 @@
                         <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
+<span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
                         <p style="color:#ff66b3;font-size:medium">price:$2000</p>
                         <input type="button" value="add to cart">
@@ -241,12 +253,12 @@
         
 
            
-            <h4 class="h" style="font-size:xx-large; color:rgb(156, 8, 127);text-align: center;"><b>FLUTE</b></h4>
+            <h4 class="h" style="font-size:xx-large; color:rgb(156, 8, 127);text-align: center;"><b>SAXOPHONE</b></h4>
 
             <div class="cards-list">
                 <div class="card">
                     <div class="card-image">
-                        <img src="images/image1.jpg" width="300px" hieght="100px">
+                        <img src="musical insturments images/saxophone6.jpg" width="300px" hieght="100px">
                     </div>
                     <div class="card_title">
                         <p>YAMAHA Recorder - Alto baroque, white</p>
@@ -264,14 +276,14 @@
                 <div class="cards-list">
                     <div class="card">
                         <div class="card-image">
-                            <img src="images/image3.jpg" width="300px" hieght="100px">
+                            <img src="musical insturments images/saxophone4.jpg" width="300px" hieght="100px">
                         </div>
                         <div class="card_title">
                             <p>Uxcell uxc - 6363 Ivory 8 Holes Woodnote Soprano Recorder Flutes</p>
                             <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
+<span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
                             <p style="color:#ff66b3;font-size:medium">price:$800</p>
                             <input type="button" value="add to cart">
@@ -282,16 +294,95 @@
                     <div class="cards-list">
                         <div class="card">
                             <div class="card-image">
-                                <img src=" images/image4.jpg" width="300px" hieght="100px">
+                                <img src="musical insturments images/saxophone7.jpg" width="230px" hieght="50px">
                             </div>
                             <div class="card_title">
                                 <p>Yamaha YRS-23 Soprano Recorder Flutes, German Fingering System Key of C Plastic Soprano, Best Gift for Students and Music Fans </p>
                                 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
                                 <p style="color:#ff66b3;font-size:medium">price:$4550</p>
+                                <input type="button" value="add to cart">
+                    
+                            </div>
+                        
+                        </div>
+                        <div class="cards-list">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="musical insturments images/saxophone8.jpg" width="300px" hieght="100px">
+                                </div>
+                                <div class="card_title">
+                                    
+                                    <p>Yamaha YRS-23Y Soprano Recorder Flute Instrument, Natural </p><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <p style="color:#ff66b3;font-size:medium">price:$666</p>
+                                    <input type="button" value="add to cart">
+                        
+                                </div>
+                            
+                            </div>
+            
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <h4 class="h" style="font-size:xx-large; color:rgb(156, 8, 127);text-align: center;"><b>FLUTE</b></h4>
+
+            <div class="cards-list">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="musical insturments images/image1.jpg" width="300px" hieght="100px">
+                    </div>
+                    <div class="card_title">
+                        <p>YAMAHA Recorder - Alto baroque, white</p>
+                        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+                        <p style="color:#ff66b3;font-size:medium">price:$500</p>
+                        <input type="button" value="add to cart">
+            
+                    </div>
+                
+                </div>
+                <div class="cards-list">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="musical insturments images/image3.jpg" width="300px" hieght="100px">
+                        </div>
+                        <div class="card_title">
+                            <p>Uxcell uxc - 6363 Ivory 8 Holes Woodnote Soprano Recorder Flutes</p>
+                            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+                            <p style="color:#ff66b3;font-size:medium">price:$800</p>
+                            <input type="button" value="add to cart">
+                
+                        </div>
+                    
+                    </div>
+                    <div class="cards-list">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="musical insturments images/image4.jpg" width="300px" hieght="100px">
+                            </div>
+                            <div class="card_title">
+                                <p>Yamaha YRS-23 Soprano Recorder Flutes, German Fingering System Key of C Plastic Soprano, Best Gift for Students and Music Fans </p>
+                                <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+                                <p style="color:#ff66b3;font-size:medium">price:$450</p>
                                 <input type="button" value="add to cart">
                     
                             </div>
@@ -306,7 +397,7 @@
                                     
                                     <p>Yamaha YRS-23Y Soprano Recorder Flute Instrument, Natural </p><span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                     <p style="color:#ff66b3;font-size:medium">price:$666</p>
@@ -317,62 +408,145 @@
                             </div>
             
                         </div>
-                        <div id="footer">
-                            <div class="container">
-                                <div class="footer_sub_1">
-                                    <h2>our story</h2>
-                                    <p>we started our journey into web development by making use of the learning materials from Treehouse. The videos are well made, they tackle the content well, and they add a fun spin to learning
-                                        web development that really helps to create a more exciting and engaging learning experience. However, they do lack the most important part 
-                                        of learning how to make the web — actually building things.</p>
-                                        <span><a href="seemore.html" target="blank">read more</a></span>
-                        
-                        
-                        
+                        </div>
+                        </div>
+                        </div>
+                       
+                        <h4 class="h" style="font-size:xx-large; color:rgb(156, 8, 127);text-align: center;"><b>DRUMS</b></h4>
+
+                        <div class="cards-list">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="musical insturments images/drums4.jpg" width="350px" hieght="295px">
+                                </div>
+                                <div class="card_title">
+                                    <p>YAMAHA Recorder - Alto baroque, white</p>
+                                    <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+                                    <p style="color:#ff66b3;font-size:medium">price:$500</p>
+                                    <input type="button" value="add to cart">
                         
                                 </div>
-                        
-                        
-                        
-                        
-                            </div>
                             
-                            <div class="footer_sub_2">
-                                <h2>social links</h2>
-                                <ul>
-                                   <li> <a href="https://www.facebook.com/" target="blank"> facebook <i class="fa-brands fa-facebook"></i></a></li>
-                                    <li> <a href="https://twitter.com/" target="blank">twitter <i class="fa-brands fa-twitter"></i></a></li>
-                                    <li> <a href="https://www.instagram.com/" target="blank">instgram <i class="fa-brands fa-instagram"></i></a></li>
-                                    <li> <a href="https://mail.google.com/" target="blank">google+  <i class="fa-brands fa-google-plus-g"></i></li></a>
-                                  
-                                </ul>
-                        
-                               
                             </div>
-                            <div class="footer_sub_3">
-                                
-                                <h2> subscribe us</h2>
-                                <form action="">
-                                <input type="email"  placeholder="write here your E-mail" class="subs">
-                               <button type="submit" class="submit_btn" >subscribe</button>
-                                <p class="sub_p">Enter your E-mail to get our notificition </p>
-                                </form>
-                                
-                               
-                          
-                               
-                        
-                            </div>
-                               <hr>
-       
-  
-    <p class="copyright">© 2022 cybershop. All Rights Reserved </p>
-    
+                            <div class="cards-list">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="musical insturments images/drums3.jpg" width="300px" hieght="100px">
+                                    </div>
+                                    <div class="card_title">
+                                        <p>Uxcell uxc - 6363 Ivory 8 Holes Woodnote Soprano Recorder Flutes</p>
+                                        <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+                                        <p style="color:#ff66b3;font-size:medium">price:$800</p>
+                                        <input type="button" value="add to cart">
                             
+                                    </div>
+                                
+                                </div>
+                                <div class="cards-list">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="musical insturments images/drums2.jpg" width="300px" hieght="100px">
+                                        </div>
+                                        <div class="card_title">
+                                            <p>Yamaha YRS-23 Soprano Recorder Flutes, German Fingering System Key of C Plastic Soprano, Best Gift for Students and Music Fans </p>
+                                            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+                                            <p style="color:#ff66b3;font-size:medium">price:$4550</p>
+                                            <input type="button" value="add to cart">
+                                
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="cards-list">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="musical insturments images/drums1.jpg" width="300px" hieght="100px">
+                                            </div>
+                                            <div class="card_title">
+                                                
+                                                <p>Yamaha YRS-23Y Soprano Recorder Flute Instrument, Natural </p><span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star "></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <p style="color:#ff66b3;font-size:medium">price:$666</p>
+                                                <input type="button" value="add to cart">
+                                    
+                                            </div>
+                                        
+                                        </div>
                         
-                        
-                        </div>
-                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <br>
+                                    <div style="margin-top: 230px; padding-left: 15px;">
+                                        <iframe width="720" height="475" src="https://www.youtube.com/embed/4VR-6AS0-l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                   </div>
 
-    
+                                   <div style="padding-left:60px ; margin-top:-400px;margin-left: 720px;">
+                                        <h3 style="font-style:normal;font-size:35px;color:rgb(156, 8, 127) ;">Know more about us </h3>
+                                        <p style="color:#cc82a7; font-size:31px;">A musical instrument is a device created or adapted to make musical sounds.
+                                             In principle, any object that produces sound can be considered a musical instrument
+                                             it is through purpose that the object becomes a musical instrument. 
+                                             A person who plays a musical instrument is known as an instrumentalist.</p>
+                                    </div>
+                                  
+
+                                   <div class="container2">
+                                      <h2  style="font-size:35px; color:rgb(156, 8, 127);text-align: center;margin-top: 150px;margin-bottom: -270px;">
+                                        <b>Our Products Details</b>
+                                      </h2>
+                                   </div>
+                                   <div class="mytable">
+                                    <table style="width:80%">
+                                        <tr>
+                                          <th>Name</th>
+                                          <th>Color</th> 
+                                          <th>Price</th>
+                                        </tr>
+                                        <tr>
+                                          <td>Guitar</td>
+                                          <td>(Black,Green,Blue,Pink)</td>
+                                          <td>[$10000]</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Violin</td>
+                                          <td>(gold,black,blue,brown)</td>
+                                          <td>[$5500]</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Saxophone</td>
+                                          <td>(silver,hotpink,black,blue)</td>
+                                          <td>[$6000]</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Flute</td>
+                                            <td>(white,silver,beige,gold)</td>
+                                            <td>[$2500]</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Drums</td>
+                                            <td>(red,blue,black,brown)</td>
+                                            <td>[$4000]</td>
+                                          </tr>
+                                      </table>
+                                      
+                                   </div>
+                                  
+            
+
 </body>
 </html>
