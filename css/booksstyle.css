@@ -569,3 +569,37 @@ th img{
 .btn:hover{
     background: #1aaa1a;
 }
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 45px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: '';
+    width:20px;
+    height: 20px;
+    left: 1px;
+    top: -1px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+label.active:before{
+    left: 24px;
+    background: #fff;
+}
+body.night{
+    background: rgb(226, 236, 247);
+    color: rgb(24, 17, 17);
+}
+@media screen and (min-width:900px) {
+  .respon{
+    display: flex;
+  }
+}
