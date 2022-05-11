@@ -359,3 +359,10 @@ th, td {
 .photo{
     text-align: center;
 }
+.maincolor{
+	color:#1aaa1a;
+}
+.tablecolor{
+	color:hs1(120,88%,20%);
+	font-style:italic;
+}
