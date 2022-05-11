@@ -1,7 +1,3 @@
-var icon = document.getElementById("icon")
-var bargraph = document.getElementById("bargraph")
-var piechart = document.getElementById ("piechart")
-
 
 function darkmode() {
   var element = document.body;
