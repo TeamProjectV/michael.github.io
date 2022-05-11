@@ -279,12 +279,12 @@ th, td {
     width: 25%;
     float: left;
     color: #fff;
-    margin-right: 25px;
+    margin-right: 40px;
  
 }
 .footer_sub_1 p{
     color: black;
-    padding-right: 90px;
+    padding-right: 25px;
 	
 }
 .footer_sub_1 a{
@@ -334,7 +334,8 @@ th, td {
     background: black;
     float: left;
     color: white;
-	
+    margin-left:99999900px;
+    margin-top:-50px;
     
     
 }
@@ -343,13 +344,12 @@ th, td {
     color: grey;
     font-style: italic;
     float: left;
-	bottom:-20px;
-	position:relative;
+	
 }
 
 #footer hr{
     background-color: #b5b5b5;
-    margin: 200px 70px 20px 70px;
+    margin: 230px 70px 20px 70px;
     height: 1px;
     border-radius: 2cm;
 	
@@ -359,6 +359,8 @@ th, td {
 .copyright{
     text-align: center;
     margin-bottom: 20px;
+    margin-right:20px;
+	color:#555;
 	
    
 }
