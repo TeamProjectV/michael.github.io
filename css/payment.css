@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color:rgb(244, 98, 232);
+    background-color:rgb(5,5,122);
 }
 .container{
     width: 350px;
@@ -104,8 +104,15 @@ button{
     text-align: center;
     width: 100%;
     height: 40px;
-    background: rgn(223,220,220);
-    color: rgb(31,30,30);
+    background: rgn(227,241,248);
+   
     padding: 10px;
     font-weight: bold;
+    transition:0.8s;
+}
+.hover{
+    color:rgb(15,45,197);
+}
+.hover:hover{
+    color:rgb(251,16,106);
 }
