@@ -46,7 +46,7 @@ body {
 
 
 
-/* the header starts */
+
 
 .navbar{
     display: flex;
@@ -193,13 +193,13 @@ margin-right: 20px;
 }
 
 
-/* the header ends */
 
 
 
 
 
-/* MAIN */
+
+
 #content main {
 	width: 100%;
 	padding: 36px 24px;
@@ -594,7 +594,6 @@ color: var(--black);
 
 
 
-/* MAIN */
-/* CONTENT */
+
 
 
