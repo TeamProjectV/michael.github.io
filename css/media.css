@@ -256,7 +256,7 @@ margin-right: 20px;
     #footer{
         width: 100%;
         height: auto;
-        background-color: #c5bebf; 
+       background-color: #c5bebf; 
         float: left;
 	box-sizing:border-box;
        padding-left:-25px;
@@ -343,5 +343,5 @@ margin-right: 20px;
         text-align: center;
         margin-bottom: 30px;
        margin-right:20px;
-	background-color:#555;
+	color:#555;
     }
