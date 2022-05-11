@@ -258,10 +258,6 @@ margin-right: 20px;
     height: auto;
     background-color: #c5bebf; 
     float: left;
-    margin:0px;	
-	
-	
-    
    
 }
 .footer_sub_1{
@@ -320,18 +316,16 @@ margin-right: 20px;
     width: 90px;
     border: none;
     background: black;
-    float: right;
+    float: left;
     color: white;
-    margin-left: 99999900px;
-    margin-top: -50px;
-
+    
+    
 }
  
 .sub_p{
     color: grey;
     font-style: italic;
     float: left;
-    
 }
 
 #footer hr{
@@ -346,4 +340,7 @@ margin-right: 20px;
     text-align: center;
     margin-bottom: 30px;
    
+}
+.photo{
+    text-align: center;
 }
