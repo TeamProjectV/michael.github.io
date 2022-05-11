@@ -15,13 +15,13 @@ body{
 }
 .container{
     width: 350px;
-    background: #fff;
+    background-color: rgb(249,248,254);
     padding: 30px;
     position: relative;
 }
 h6{
     font-size: 20px;
-    color: rgb(151, 46, 200);
+    color: plum;
 }
 span{
     position: absolute;
@@ -33,11 +33,11 @@ span{
 h1{
     position: 30px 0px;
     font-size: 30px;
-    color: var(--text-color);
+    color: rgb(238,18,190);
     margin-bottom: 15px;
 }
 form label{
-    color: var(--text-color);
+    color:rgb(238,18,190);
     text-transform: uppercase;
     position: relative;
     font-size: 10px;
@@ -104,7 +104,7 @@ button{
     text-align: center;
     width: 100%;
     height: 40px;
-    background: rgn(227,241,248);
+    background: rgb(227,241,248);
    border-radius:50px;
     padding: 10px;
     font-weight: bold;
@@ -113,6 +113,7 @@ button{
 .hover{
     color:rgb(15,45,197);
 }
+
 .hover:hover{
-    color:rgb(251,16,106);
+    color:rgb(238,18,190);
 }
