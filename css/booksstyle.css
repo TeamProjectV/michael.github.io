@@ -339,6 +339,7 @@ th img{
 .footer_sub_1 p{
         color: black;
         padding-right: 25px;
+        font-size: 16px;
     }
 .footer_sub_1 a{
         color: white;
@@ -387,6 +388,7 @@ th img{
         background: black;
         float: left;
         color: white;
+        position:absolute;
         
         
     }
