@@ -397,8 +397,8 @@ th img{
         color: grey;
         font-style: italic;
         float: left;
-        bottom: 70px;
-        position: fixed;
+        bottom: -20px;
+        position: relative;
     }
     
 #footer hr{
