@@ -2,18 +2,6 @@
     --pink:#e84393;
 }
 
-*{
-    margin:0; padding:0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    outline: none; border:none;
-    text-decoration: none;
-}
-
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
 
 section{
     padding:32px;
@@ -51,7 +39,7 @@ input[type=text] {
     border: 1px solid #a7a7a7;
     border-radius: 5px 0px 0px 5px;
     width:260px;
-    height: 40px ;
+    height: 26px ;
 }
   
 .search-container button {
@@ -134,6 +122,7 @@ color: #1aaa1a;
 	font-family: 'Lato', sans-serif;
 	position: relative ;
 	width: 100%; 
+    padding-left: 2.5%;
 
 }
 
@@ -169,48 +158,35 @@ margin-right: 20px;
 
 .home .content h1{
     font-size: 75px;
-    color:white;
-   font-weight: 3px;
-
-}
-
-.home .content h1:hover{
-    color:#F08080;
+    color:#F18EBE;
+    
 }
 
 .home .content span{
     font-size: 30px;
-    color:#F08080;
+    color:white;
     line-height: 1.5;
-  
-}
-
-.btn{
-    display:inline-block;
-    margin-top:1rem;
-    padding:1rem 3rem;
-    color:#fff;
-    font-size:1.7rem;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
-    cursor: pointer;
-}
-.btn:hover{
-    letter-spacing: .1rem;
-    background: #F08080;
-    color: #fff;
 }
 
 
 
 
+.icons-container h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+    margin-top: 30px;
+}
+.icons-container h1:hover{
+    color: var(--pink);
+}
 .icons-container{
     background:white;
     display: flex;
     gap: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
-    flex-wrap: wrap;
-   
    
 }
 
@@ -228,13 +204,8 @@ margin-right: 20px;
     border: 0.5px solid var(--pink);
     
 }
-
-.icons-container :hover{
-background: #f7bfbf;
-}
-
 .icons-container .icons :hover{
-color:white;
+color:var(--pink)
 }
 .icons-container .icons img{
     height:60px;
@@ -251,6 +222,7 @@ color:white;
 
 
 
+
 .products h1{
     font-size: 40px;
     text-align: center;
@@ -259,7 +231,7 @@ color:white;
     margin-top: -10px;
     outline-color: var(--pink);
     outline-style:outset ;
-   
+    /* #f8e0e0 */
 }
 .products h1:hover{
     color: var(--pink);
@@ -359,33 +331,6 @@ color:white;
 }
 
 
-.banner{
-    background: url(../images/bannermakeup-bg.jpg) no-repeat;
-    background-size:cover;
-    background-position:center;
-}
-.banner .content{
-    max-width: 40rem;
-    background: #fff;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
-    padding: 2rem;
-    text-align: center;
-    margin: 10rem 0;
-}
-.banner .content span{
-    font-size:2rem;
-}
-.banner .content h3{
-    font-size:3rem;
-    color: #222;
-    padding-top: .5rem;
-}
-.banner .content p{
-    font-size: 1.4rem;
-    color: #666;
-    padding: 1rem 0;
-    line-height: 2;
-}
 
 
 
@@ -393,68 +338,7 @@ color:white;
 
 
 
-.gallery .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
-    gap:2rem;
-}
-.gallery .box-container .box{
-    height:25rem;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
-}
-.gallery .box-container .box:hover .content{
-    display: flex;
-}
-.gallery .box-container .box img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-}
-.gallery .box-container .box .content{
-    background: rgba(255,255,255,0.8);
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    position:absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    padding:2rem;
-    text-align:center;
-    border:0.2rem solid #222;
-    display: none;
-}
-.gallery .box-container .box .content h3{
-    font-size: 2rem;
-    color: #222;
-   
-}
-.gallery .box-container .box .content p{
-    font-size: 1.4rem;
-    color: #222;
-    padding:1rem 0;
-    line-height: 2;
-    
-}
 
-
-.gallery h1{
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 45px;
-    color: black;
-    margin-top: 15px;
-    outline-color: var(--pink);
-    outline-style:outset ;
-}
-
-.gallery h1:hover{
-    color: var(--pink);
-}
 
 .about .row{
     display: flex;
@@ -472,23 +356,21 @@ color:white;
     width:100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: 0 5px 15px rosybrown;
+    box-shadow: 0 5px 15px #d8d8d8;
     border-radius: 10px;
     border: 20px solid #fdf9f9;
 }
 
 .about .row .content{
     flex:1 1 350px;
+    padding-left: 30px;
 }
 
 .about .row .content h3{
     font-size: 40px;
-    color: black;
-}
-
-.about .row .content h3:hover{
     color: var(--pink);
 }
+
 
 .about .row .content p{
     font-size: 15px;
@@ -497,17 +379,12 @@ color:white;
     line-height: 1.5;
 }
 
-
-
-
-
-
-
 #footer{
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: #c5bebf; 
     float: left;
+
    
 }
 .footer_sub_1{
@@ -523,24 +400,32 @@ color:white;
 }
 .footer_sub_1 a{
     color: white;
+    padding-bottom: 30px;
 }
 .footer_sub_1 a:hover{
     color: #1aaa1a;
 }
 .footer_sub_2{
-   width: 20%;
+   width: 22%;
    float: left;
    color: #fff;
-   padding-left: 200px;
+   padding-left: 180px;
+}
+.footer_sub_2 ul{
+
+    padding-inline-start: 10px;
+   
 }
 .footer_sub_2 ul li{
     list-style: none;
     margin-bottom: 20px;
+    padding-inline-start: 10px;
+   
 }
 .footer_sub_2 a{
     text-decoration: none;
     color: black;
-    ;
+ 
 }
 .footer_sub_2 a:hover{
     color: #1aaa1a;
@@ -568,7 +453,8 @@ color:white;
     background: black;
     float: left;
     color: white;
-    
+  
+  
     
 }
  
@@ -580,7 +466,7 @@ color:white;
 
 #footer hr{
     background-color: #b5b5b5;
-    margin: 230px 70px 20px 70px;
+    margin: 270px 70px 20px 70px;
     height: 1px;
     border-radius: 2cm;
 }
