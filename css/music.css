@@ -10,6 +10,8 @@ body{
 
 .theme{
     background-color: #0c1352 ;
+    
+    
  }
 
 .navbar{
@@ -206,16 +208,12 @@ margin-right: 20px;
   }
 /*.container2{
     position: relative;
-
 }
-
-
 table{
     width: 500px;
     margin-top: 300px;
     margin-bottom: -200px;
 }
-
 th{
     text-align: center;
     color: #ce0b94;
@@ -272,20 +270,20 @@ th, td {
     height: auto;
     background-color: #c5bebf; 
     float: left;
-    margin:0px;
    
 }
 .footer_sub_1{
     width: 25%;
     float: left;
     color: #fff;
-    margin-right: 40px;
+    margin-right: 25px;
  
 }
 .footer_sub_1 p{
     color: black;
-    padding-right: 25px;
-	
+    padding-right: 90px;
+    font-size: 16px;
+
 }
 .footer_sub_1 a{
     color: white;
@@ -334,8 +332,7 @@ th, td {
     background: black;
     float: left;
     color: white;
-    margin-left:99999900px;
-    margin-top:-50px;
+    position: absolute;
     
     
 }
@@ -344,33 +341,31 @@ th, td {
     color: grey;
     font-style: italic;
     float: left;
-	
+    position: relative;
+    bottom: -20px;
 }
 
 #footer hr{
     background-color: #b5b5b5;
-    margin: 230px 70px 20px 70px;
+    margin: 200px 70px 20px 70px;
     height: 1px;
     border-radius: 2cm;
-	
+    width: 90%;
 }
     
    
 .copyright{
     text-align: center;
     margin-bottom: 20px;
-    margin-right:20px;
-	color:#555;
-	
    
 }
 .photo{
     text-align: center;
 }
-.maincolor{
-	color:#1aaa1a;
+.orange{
+    color:#1aaa1a
 }
-.tablecolor{
-	color:hs1(120,88%,20%);
-	font-style:italic;
+.kenzy{
+    color:hsl(120, 88%, 20%);
+    font-style: italic;
 }
