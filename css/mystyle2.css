@@ -1,5 +1,6 @@
 /* the header starts */
-
+body 
+{margin:0;}
 .navbar {
     display: flex;
     align-items: right;
