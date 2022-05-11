@@ -4,8 +4,14 @@ function myalert(){
 
 let checker= prompt("How Many Items Do You Need ?");
 
-alert('Items Added successfully..')
+if (checker!= null){
+  
+alert('Items Added Successfully..')}
+  
+else{
+    alert('Process Cancelled..')
 }
 
+}
 
 
