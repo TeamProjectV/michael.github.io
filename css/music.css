@@ -285,6 +285,7 @@ th, td {
 .footer_sub_1 p{
     color: black;
     padding-right: 90px;
+	font-size:16px;
 }
 .footer_sub_1 a{
     color: white;
@@ -333,6 +334,7 @@ th, td {
     background: black;
     float: left;
     color: white;
+	position:absolute;
     
     
 }
@@ -341,6 +343,8 @@ th, td {
     color: grey;
     font-style: italic;
     float: left;
+	bottom:-20px;
+	position:relative;
 }
 
 #footer hr{
@@ -348,12 +352,14 @@ th, td {
     margin: 200px 70px 20px 70px;
     height: 1px;
     border-radius: 2cm;
+	width:90%;
 }
     
    
 .copyright{
     text-align: center;
     margin-bottom: 20px;
+	color:#555;
    
 }
 .photo{
