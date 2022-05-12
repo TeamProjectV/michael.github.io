@@ -225,9 +225,9 @@ section{
     padding-top: .5rem;
 }
 
-.reviews .reviews-slider .box .stars i{
+.reviews .reviews-slider .box .stars {
     font-size: 1.7rem;
-    color:var(--green);
+    color:#1aaa1a;
 }
 .arrivals .arrivals-slider .box{
     display: flex;
@@ -263,9 +263,9 @@ section{
     text-decoration: line-through;
 }
 
-.arrivals .arrivals-slider .box .content .stars i{
+.arrivals .arrivals-slider .box .content .stars {
     font-size: 1.5rem;
-    color:var(--green);
+    color:#1aaa1a;
 }
 .table{
     width: 100%;
