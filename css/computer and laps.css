@@ -1,0 +1,295 @@
+.body{
+	margin:0px;
+}
+ .dark-mode {
+    background-color: black;
+    color: white;
+  }
+.navbar{
+    display: flex;
+    align-items: right;
+    margin-bottom: -12px;
+}
+
+.navbar .logo img{
+padding: 0;
+margin: 0;
+display: flex;
+margin-left: -40px;
+margin-top: -26px;
+width: 60%;
+}
+
+.search-container {
+    margin-bottom: 10px;
+   margin-top: 4px;
+  margin-left: -35px;
+}
+  
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px 0px 0px 5px;
+    width:260px;
+    height: 26px ;
+}
+  
+.search-container button {
+    float: right;
+    width: 40px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #a7a7a7;
+    font-size: 17px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.search-container button:hover {
+ background: #ccc;
+}
+
+
+.navbar a:hover{
+color: #1aaa1a;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 23px;
+    margin-right: -50px;
+}
+
+nav ul li {
+   display: inline-block;
+   margin-right: 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-size: 16px;       
+}
+  
+.categories a:hover{
+color: #1aaa1a;
+}
+
+   
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header{
+   background: #e5e5e5;
+}
+
+.categories{
+    height: 50px;
+     background:black;
+     display: flex;
+     align-items: center;
+     font-family: 'Lato', sans-serif;
+     position: relative ;
+     width: 100%;
+}
+
+.categories ul{
+    height: 50px;
+     display: flex;
+     align-items: center;
+     grid-gap: 5px;
+     font-family: 'Lato', sans-serif;
+     position: relative ;
+     width: 100%; 
+    padding-left: 2.5%;
+
+}
+
+.categories ul li {
+display: inline-block;
+align-items: center;
+margin-left: 20px;
+padding-bottom: 18px;
+margin-top: 13px;
+margin-right: 20px;
+}
+
+.categories ul li a{
+ color: #f9f9f9;
+ align-items: center;
+
+}
+
+
+.product-sh p {
+	clear: both;
+	margin: 0px;
+	text-align: center;
+	padding-top: 30px;
+	color: #ddd;
+	font-size: 16px;
+}
+
+.product-sh p a {
+	color: #007dea;
+}
+
+.product-sh p a:hover,
+.product-sh p a:focus {
+	color: #007dea;
+}
+
+.box-img {
+	background: #051d36;
+	text-align: center;
+	padding-bottom: 30px;
+	min-height: 280px;
+	margin-bottom: 30px;
+	position: relative;
+	border-bottom: solid #007dea 3px;
+	transition: ease all 0.5s;
+}
+
+.box-img h4 {
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	font-size: 25px;
+	font-weight: 500;
+	transition: all 0.3s ease 0s;
+	letter-spacing: 0px;
+}
+
+.box-img:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	background: #007dea;
+}
+
+.food {
+	position: absolute;
+	right: 0px;
+	top: 40%;
+}
+
+.categories_link {
+	text-align: center;
+	clear: both;
+}
+
+.categories_link a {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.categories_link a:hover {
+	color: #1d99ff;
+}
+
+
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: #c5bebf; 
+    float: left;
+   
+}
+.footer_sub_1{
+    width: 25%;
+    float: left;
+    color: #fff;
+    margin-right: 40px;
+ 
+}
+.footer_sub_1 p{
+    color: black;
+    padding-right: 25px;
+}
+.footer_sub_1 a{
+    color: white;
+}
+.footer_sub_1 a:hover{
+    color: #1aaa1a;
+}
+.footer_sub_2{
+   width: 20%;
+   float: left;
+   color: #fff;
+   padding-left: 200px;
+}
+.footer_sub_2 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer_sub_2 a{
+    text-decoration: none;
+    color: black;
+    ;
+}
+.footer_sub_2 a:hover{
+    color: #1aaa1a;
+    text-decoration: underline;
+    
+}
+.footer_sub_3{
+    width: 25%;
+    float: left;
+    color: white;
+    padding-left: 120px;
+}
+.subs{
+    width: 250px;
+    border: none;
+    height: 50px;
+    float: left;
+    padding-left: 15px;
+
+}
+.submit_btn{
+    height: 50px;
+    width: 90px;
+    border: none;
+    background: black;
+    float: left;
+    color: white;
+    
+    
+}
+ 
+.sub_p{
+    color: grey;
+    font-style: italic;
+    float: left;
+}
+
+#footer hr{
+    background-color: #b5b5b5;
+    margin: 230px 70px 20px 70px;
+    height: 1px;
+    border-radius: 2cm;
+}
+    
+   
+.copyright{
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+.photo{
+    text-align: center;
+}
