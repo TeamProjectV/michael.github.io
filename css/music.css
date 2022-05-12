@@ -10,6 +10,7 @@ body{
 
 .theme{
     background-color: #0c1352 ;
+	color:white;
     
     
  }
@@ -362,10 +363,4 @@ th, td {
 .photo{
     text-align: center;
 }
-.orange{
-    color:#1aaa1a
-}
-.kenzy{
-    color:hsl(120, 88%, 20%);
-    font-style: italic;
-}
+
