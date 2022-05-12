@@ -14,3 +14,8 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+
+function myFunction() {
+    alert("Added To Cart Successfully!");
+  }
