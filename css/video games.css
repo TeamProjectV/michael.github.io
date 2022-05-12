@@ -1,15 +1,10 @@
-body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
-  
-  .theme{
+.body{
+	margin:0px;
+}
+.theme{
     background-color: rgb(6, 1, 77);
     color: white;
   }
-}
 .navbar{
     display: flex;
     align-items: right;
@@ -268,14 +263,6 @@ margin-right: 20px;
     min-height: 293px;
 }
 
-.video-container {
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    text-align: center;
-
-}
 #footer{
     width: 100%;
     height: auto;
